@@ -10,7 +10,7 @@ public class HomeConroller {
 
 	@GetMapping
 	public String getMethodName(@RequestParam String param) {
-		return "안녕하세요";
+		return "반갑습니다";
 	}
 	
 	
